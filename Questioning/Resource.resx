@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CmdDelete" xml:space="preserve">
+    <value>delete</value>
+  </data>
+  <data name="CmdDelete_Help" xml:space="preserve">
+    <value>Удалить указанную анкету</value>
+  </data>
+  <data name="CmdExit" xml:space="preserve">
+    <value>exit</value>
+  </data>
+  <data name="CmdExit_Help" xml:space="preserve">
+    <value>Выйти из приложения</value>
+  </data>
+  <data name="CmdFind" xml:space="preserve">
+    <value>find</value>
+  </data>
+  <data name="CmdFind_Help" xml:space="preserve">
+    <value>Найти анкету и показать данные анкеты в консоль</value>
+  </data>
+  <data name="CmdGotoPrevQuestion" xml:space="preserve">
+    <value>goto_prev_question</value>
+  </data>
+  <data name="CmdGotoPrevQuestion_Help" xml:space="preserve">
+    <value>Вернуться к предыдущему вопросу (Команда доступна только при заполнении анкеты, вводится вместо ответа на любой вопрос)</value>
+  </data>
+  <data name="CmdGotoQuestion" xml:space="preserve">
+    <value>goto_question</value>
+  </data>
+  <data name="CmdGotoQuestion_Help" xml:space="preserve">
+    <value>Вернуться к указанному вопросу (Команда доступна только при заполнении анкеты, вводится вместо ответа на любой вопрос)</value>
+  </data>
+  <data name="CmdHelp" xml:space="preserve">
+    <value>help</value>
+  </data>
+  <data name="CmdHelp_Help" xml:space="preserve">
+    <value>Показать список доступных команд с описанием</value>
+  </data>
+  <data name="CmdList" xml:space="preserve">
+    <value>list</value>
+  </data>
+  <data name="CmdListToday" xml:space="preserve">
+    <value>list_today</value>
+  </data>
+  <data name="CmdListToday_Help" xml:space="preserve">
+    <value>Показать список названий файлов всех сохранённых анкет, созданных сегодня</value>
+  </data>
+  <data name="CmdList_Help" xml:space="preserve">
+    <value>Показать список названий файлов всех сохранённых анкет</value>
+  </data>
+  <data name="CmdNewProfile" xml:space="preserve">
+    <value>new_profile</value>
+  </data>
+  <data name="CmdNewProfile_Help" xml:space="preserve">
+    <value>Заполнить новую анкету</value>
+  </data>
+  <data name="CmdRestartProfile" xml:space="preserve">
+    <value>restart_profile</value>
+  </data>
+  <data name="CmdRestartProfile_Help" xml:space="preserve">
+    <value>Заполнить анкету заново (Команда доступна только при заполнении анкеты, вводится вместо ответа на любой вопрос)</value>
+  </data>
+  <data name="CmdSave" xml:space="preserve">
+    <value>save</value>
+  </data>
+  <data name="CmdSave_Help" xml:space="preserve">
+    <value>Сохранить заполненную анкету</value>
+  </data>
+  <data name="CmdStatistics" xml:space="preserve">
+    <value>statistics</value>
+  </data>
+  <data name="CmdStatistics_Help" xml:space="preserve">
+    <value>Показать статистику всех заполненных анкет</value>
+  </data>
+  <data name="CmdZip" xml:space="preserve">
+    <value>zip</value>
+  </data>
+  <data name="CmdZip_Help" xml:space="preserve">
+    <value>Запаковать указанную анкету в архив и сохранить архив по указанному пути</value>
+  </data>
+  <data name="Cmd_PromptInputCommand" xml:space="preserve">
+    <value>&gt;</value>
+  </data>
+  <data name="Label_DR" xml:space="preserve">
+    <value>Дата рождения</value>
+  </data>
+  <data name="Label_ExperienceProgrammingInspecifiedLanguage" xml:space="preserve">
+    <value>Опыт программирования на указанном языке</value>
+  </data>
+  <data name="Label_FavoriteProgramLanguage" xml:space="preserve">
+    <value>Любимый язык программирования</value>
+  </data>
+  <data name="Label_FIO" xml:space="preserve">
+    <value>ФИО</value>
+  </data>
+  <data name="Label_MobilePhone" xml:space="preserve">
+    <value>Мобильный телефон</value>
+  </data>
+  <data name="Label_ProfileFilledOudDate" xml:space="preserve">
+    <value>Анкета заполнена</value>
+  </data>
+  <data name="Text_ArchivePath" xml:space="preserve">
+    <value>Путь для сохранения архива</value>
+  </data>
+  <data name="Text_CommandError" xml:space="preserve">
+    <value>Ошибка при выполнении команды</value>
+  </data>
+  <data name="Text_DateFormat" xml:space="preserve">
+    <value>Формат ДД.ММ.ГГГГ</value>
+  </data>
+  <data name="Text_FullYear" xml:space="preserve">
+    <value>Полных лет</value>
+  </data>
+  <data name="Text_NumberQuestion" xml:space="preserve">
+    <value>Номер вопроса</value>
+  </data>
+  <data name="Text_Questionary" xml:space="preserve">
+    <value>Имя файла анкеты</value>
+  </data>
+  <data name="Text_SelectAction" xml:space="preserve">
+    <value>Выберите действие</value>
+  </data>
+  <data name="Text_CommandParserError" xml:space="preserve">
+    <value>Ошибка</value>
+  </data>
+  <data name="Label_AverageAge" xml:space="preserve">
+    <value>Средний возраст</value>
+  </data>
+  <data name="Label_TopProgramLanguage" xml:space="preserve">
+    <value>Самый популярный язык программирования</value>
+  </data>
+  <data name="Text_DataError" xml:space="preserve">
+    <value>Ошибка ввода данных</value>
+  </data>
+  <data name="Text_CommandContextError" xml:space="preserve">
+    <value>Команда может использоваться только при заполнении данных анкеты</value>
+  </data>
+  <data name="CmdFind_Format" xml:space="preserve">
+    <value>find "&lt;Фамилия Имя Отчество&gt;"</value>
+  </data>
+  <data name="CmdGotoQuestion_Format" xml:space="preserve">
+    <value>goto_question &lt;номер вопроса&gt;</value>
+  </data>
+  <data name="CmdZip_Format" xml:space="preserve">
+    <value>zip "&lt;Фамилия Имя Отчество&gt;" &lt;путь&gt;</value>
+  </data>
+  <data name="Cmd_PromptInputData" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="Text_EmptyConstraintMsg" xml:space="preserve">
+    <value>Ответ не должно быть пустым</value>
+  </data>
+  <data name="Text_LengthMaxConstraintMsg" xml:space="preserve">
+    <value>Длина ответа ({0}) не должна превышать {1} символов</value>
+  </data>
+  <data name="Text_LengthMinConstraintMsg" xml:space="preserve">
+    <value>Длина ответа ({0}) не должна быть меньше {1} символов</value>
+  </data>
+  <data name="CmdDelete_Format" xml:space="preserve">
+    <value>delete "&lt;Фамилия Имя Отчество&gt;"</value>
+  </data>
+  <data name="Test_DRCanNotBeMoreCurrentDate" xml:space="preserve">
+    <value>Дата рождения не может быть больше текущей даты</value>
+  </data>
+  <data name="Test_ExperienceCanNotBeMoreAge" xml:space="preserve">
+    <value>Опыт не может быть больше возраста</value>
+  </data>
+  <data name="Text_LanguageMastBeIn" xml:space="preserve">
+    <value>Язык можно выбрать только из: {0}</value>
+  </data>
+  <data name="Text_NeedRequeryParameter" xml:space="preserve">
+    <value>Требуется обязательный параметр</value>
+  </data>
+  <data name="Text_NumberQuestionMustBeNumber" xml:space="preserve">
+    <value>Номер вопроса должен быть числом</value>
+  </data>
+  <data name="Text_NumberQuestionMustBePositiveNumber" xml:space="preserve">
+    <value>Номер вопроса должен быть положительным числом от 1 до {0}</value>
+  </data>
+  <data name="Text_ParserEmptyValue" xml:space="preserve">
+    <value>Введите не пустое значение</value>
+  </data>
+  <data name="Text_ParserOtherError" xml:space="preserve">
+    <value>Ошибка при разборе пользовательского ввода</value>
+  </data>
+  <data name="Text_ParserUnknownCommand" xml:space="preserve">
+    <value>Не известная команда</value>
+  </data>
+  <data name="Text_WrongFormatAnswer" xml:space="preserve">
+    <value>Не верный формат ответа</value>
+  </data>
+</root>
